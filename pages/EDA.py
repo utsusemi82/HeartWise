@@ -55,23 +55,23 @@ st.markdown("### Dataset")
 st.write("This is the dataset used for model training.")
 
 # dataset details
-st.image("/content/drive/MyDrive/HRV/data_head.jpg")
+st.image("HRV/data_head.jpg")
 st.write("")
 
 st.write("The details of the data are shown as below: ")
-st.image("/content/drive/MyDrive/HRV/data_info.jpg")
-st.image("/content/drive/MyDrive/HRV/data_describe.jpg")
+st.image("HRV/data_info.jpg")
+st.image("HRV/data_describe.jpg")
 st.write("")
 
 st.write("")
 st.write("The charts below show the HRV features and their correlation.")
-st.image("/content/drive/MyDrive/HRV/correlation.png")
+st.image("HRV/correlation.png")
 st.write("")
 
-st.image("/content/drive/MyDrive/HRV/mean_median.png")
+st.image("HRV/mean_median.png")
 st.write("")
 
-st.image("/content/drive/MyDrive/HRV/HRV features plot.png")
+st.image("HRV/HRV features plot.png")
 st.write("")
 
 st.divider()

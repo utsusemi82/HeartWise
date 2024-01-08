@@ -11,7 +11,7 @@ st.write("A guide on how you can enhance stress management based on the detected
 st.divider()
 
 st.markdown("### Normal State")
-st.image("/content/drive/MyDrive/HRV/assets/photo-1603206006222-26ecff6f4f5c.jpeg")
+st.image("HRV/assets/photo-1603206006222-26ecff6f4f5c.jpeg")
 st.write("*Great news! Your HRV analysis shows that you're in the 'Normal' stress level zone. This is a fantastic sign of balance and well-being.*")
 st.markdown("#### Below are some of the enriched management tips:")
 st.markdown("- Encouragement for Healthy Habits")
@@ -23,7 +23,7 @@ st.write("Regularly check your HRV, and maybe keep a stress diary or emotion rec
 st.write("")
 
 st.markdown("### Attention Needed")
-st.image("/content/drive/MyDrive/HRV/assets/photo-1578986568309-707ef1017f69.jpeg")
+st.image("HRV/assets/photo-1578986568309-707ef1017f69.jpeg")
 st.write("*Heads up! Your HRV level is entering the Attention Needed zone. No worries, though...this is your cue to add a little more self-care into your routine.*")
 st.markdown("#### Here's what you can do:")
 st.markdown("- Creative Stress Reduction")
@@ -35,7 +35,7 @@ st.write("Find a new hobby or revisit an old one. Whether it's gardening, star-g
 st.write("")
 
 st.markdown("### Overload!!!")
-st.image("/content/drive/MyDrive/HRV/assets/photo-1541199249251-f713e6145474.jpeg")
+st.image("HRV/assets/photo-1541199249251-f713e6145474.jpeg")
 st.write("*Alert!!!!!  Your HRV is indicating an OVERLOADDDDD level of stress. It's super important to take this seriously, but know that you've got this, and there are plenty of ways to turn things around.*")
 st.markdown("#### Please follow the guide over here:")
 st.markdown("- Support and Professional Guidance")
