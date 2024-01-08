@@ -17,7 +17,7 @@ st.markdown("""
     Each model has been rigorously tested to ensure accuracy and reliability in real-world scenarios.
 """)
 st.write("")
-st.image("/content/drive/MyDrive/HRV/assets/photo-1682706841281-f723c5bfcd83.jpeg")
+st.image("HRV/assets/photo-1682706841281-f723c5bfcd83.jpeg")
 st.divider()
 
 st.markdown("### Model Classification Reports")
@@ -74,20 +74,20 @@ st.write("")
 st.write("")
 
 st.markdown("### Comparison between the models using Accuracy and ROC AUC")
-st.image("/content/drive/MyDrive/HRV/accuracy.png")
+st.image("HRV/accuracy.png")
 st.write("")
 
 st.markdown("### Confusion Matrix for Each Model")
-st.image("/content/drive/MyDrive/HRV/cf_rf.png")
-st.image("/content/drive/MyDrive/HRV/cf_logistic.png")
-st.image("/content/drive/MyDrive/HRV/cf_knn.png")
-st.image("/content/drive/MyDrive/HRV/cf_svm.png")
+st.image("HRV/cf_rf.png")
+st.image("HRV/cf_logistic.png")
+st.image("HRV/cf_knn.png")
+st.image("HRV/cf_svm.png")
 st.write("")
 
 st.markdown("### ROC AUC for Each Model")
-st.image("/content/drive/MyDrive/HRV/roc_rf.png")
-st.image("/content/drive/MyDrive/HRV/roc_logistic.png")
-st.image("/content/drive/MyDrive/HRV/roc_knn.png")
+st.image("HRV/roc_rf.png")
+st.image("HRV/roc_logistic.png")
+st.image("HRV/roc_knn.png")
 
 st.divider()
 st.markdown("""
