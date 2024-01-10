@@ -9,7 +9,7 @@ st.set_page_config(
 st.sidebar.write("Menu")
 st.sidebar.write("Exploratory Data Analysis")
 st.sidebar.write("Guide")
-st.sidebar.sucess("Model Performance")
+st.sidebar.success("Model ")
 st.sidebar.write("Playground")
 st.sidebar.info("Presented by JiaWen Cher")
 
