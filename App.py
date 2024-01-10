@@ -16,7 +16,7 @@ with col2:
 st.sidebar.success("Menu")
 st.sidebar.write("Exploratory Data Analysis")
 st.sidebar.write("Guide")
-st.sidebar.write("Model Performance")
+st.sidebar.write("Model ")
 st.sidebar.write("Playground")
 
 st.sidebar.info("Presented by JiaWen Cher")
