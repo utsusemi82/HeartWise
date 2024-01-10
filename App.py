@@ -21,7 +21,7 @@ st.sidebar.write("Playground")
 
 st.sidebar.info("Presented by JiaWen Cher")
 
-st.write("#### Hi. This is HeartWise, your innovative tool for stress management. ")
+st.write("#### Hi. This is HeartWise, your innovative tool for stress management. 😎 ")
 st.write("HeartWise leverages Heart Rate Variability (HRV) analysis to provide insights into your stress levels. It's a user-friendly web app designed to help you monitor and manage stress through real-time, non-invasive HRV tracking.")
 st.write("")
 st.image("HRV/assets/photo-1530508943348-b8f606ea2bf2.jpeg")
@@ -52,6 +52,13 @@ HeartWise isn't just about detecting stress; it's your personal tool for managin
 HeartWise is designed to be user-friendly, making stress management accessible and integrative into your daily routine. Start your journey towards better stress management with HeartWise – a step towards a calmer, healthier you!
 Join us in embracing a proactive approach to stress management with HeartWise by checking out the button below.
 """)
+
+st.divider()
+st.write("### User Manual 📖")
+st.write("Check out the user manual below and start using HeartWise today!")
+st.image("User Manual/3.png")
+st.image("User Manual/4.png")
+st.image("User Manual/5.png")
 
 st.divider()
 st.write("Welcome to HeartWise ❤️‍🩹")
