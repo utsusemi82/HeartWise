@@ -6,8 +6,14 @@ st.set_page_config(
   page_icon = "🚀"
 )
 
+st.sidebar.write("Menu")
+st.sidebar.write("Exploratory Data Analysis")
+st.sidebar.write("Guide")
+st.sidebar.sucess("Model Performance")
+st.sidebar.write("Playground")
+st.sidebar.info("Presented by JiaWen Cher")
+
 st.markdown("# Model Comparison & Analysis 🗂️")
-st.sidebar.header("Model")
 st.markdown("""
     #### Overview
     In order to develop a robust system for stress level detection based on HRV (Heart Rate Variability) analysis, I have trained and evaluated four different machine learning models:
