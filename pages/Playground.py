@@ -171,7 +171,13 @@ def display_stress_levels(df, decoded_predictions):
 st.set_page_config(page_title="Playground", page_icon="🛝")
 st.markdown("## Let's Detect Your Stress Level💓")
 st.write("Your csv file must include only two columns 'timestamp' and 'HR' with a minimum of 20 data points for each column to ensure the accuracy of the detection.")
-st.sidebar.header("Playground")
+
+st.sidebar.write("Menu")
+st.sidebar.write("Exploratory Data Analysis")
+st.sidebar.write("Guide")
+st.sidebar.write("Model Performance")
+st.sidebar.success("Playground")
+st.sidebar.info("Presented by JiaWen Cher")
 
 # File uploader
 try:
