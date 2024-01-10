@@ -10,7 +10,12 @@ st.set_page_config(
   layout="wide"
 )
 
-st.sidebar.header("Exploratory Data Analysis")
+st.sidebar.write("Menu")
+st.sidebar.success("Exploratory Data Analysis")
+st.sidebar.write("Guide")
+st.sidebar.write("Model Performance")
+st.sidebar.write("Playground")
+st.sidebar.info("Presented by JiaWen Cher")
 
 st.markdown("# Exploratory Data Analysis 📈")
 st.write("Exploratory Data Analysis (EDA) is an essential step in the data analysis process to understand the dataset.")
