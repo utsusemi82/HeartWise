@@ -21,7 +21,7 @@ st.sidebar.write("Playground")
 
 st.sidebar.info("Presented by JiaWen Cher")
 
-st.write("#### Hi. This is HeartWise, your innovative tool for stress management. 😎 ")
+st.write("#### Hi. This is HeartWise, your innovative tool for stress management. ")
 st.write("HeartWise leverages Heart Rate Variability (HRV) analysis to provide insights into your stress levels. It's a user-friendly web app designed to help you monitor and manage stress through real-time, non-invasive HRV tracking.")
 st.write("")
 st.image("HRV/assets/photo-1530508943348-b8f606ea2bf2.jpeg")
