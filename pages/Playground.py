@@ -170,6 +170,7 @@ def display_stress_levels(df, decoded_predictions):
 # Streamlit app layout
 st.set_page_config(page_title="Playground", page_icon="🛝")
 st.markdown("## Let's Detect Your Stress Level💓")
+st.write("Your csv file must include only two columns 'timestamp' and 'HR' with a minimum of 20 data points for each column to ensure the accuracy of the detection.")
 st.sidebar.header("Playground")
 
 # File uploader
