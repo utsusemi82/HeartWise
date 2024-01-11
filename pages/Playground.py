@@ -8,7 +8,7 @@ import datetime
 
 # Load your model and scaler
 scaler = joblib.load('scaler.joblib')
-model = joblib.load('rf_model.joblib')
+model = joblib.load('gb_model.joblib')
 label_mapping_pred = {1: 'Normal state', 2: 'Attention needed', 0: 'Overload'}
 
 # Define function to parse timestamps
