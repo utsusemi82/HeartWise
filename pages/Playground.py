@@ -76,37 +76,6 @@ def display_figures(df, decoded_predictions):
     )
     fig_hr_time_series.update_traces(line=dict(color='yellow', width=2))
 
-    # RR Intervals Over Time
-    fig_rr_intervals = px.line(df, x='timestamp', y='RR', title='RR Intervals Over Time')
-    fig_rr_intervals.update_layout(
-        plot_bgcolor='black',
-        title_font_color='white',
-        title_font_size=20,
-        xaxis_title='Timestamp',
-        yaxis_title='RR Intervals',
-        xaxis_color='white',
-        yaxis_color='white',
-        xaxis_showgrid=False,
-        yaxis_showgrid=True,
-        yaxis_gridcolor='#555555'
-    )
-    fig_rr_intervals.update_traces(line=dict(color='orange', width=2))
-    
-    # Histogram for Heart Rate
-    fig_hr_distribution = px.histogram(df, x='HR', nbins=20, title='Distribution of Heart Rate')
-    fig_hr_distribution.update_layout(
-        plot_bgcolor='black',
-        title_font_color='white',
-        title_font_size=20,
-        xaxis_title='Heart Rate (bpm)',
-        yaxis_title='Frequency',
-        xaxis_color='white',
-        yaxis_color='white',
-        xaxis_showgrid=True,
-        yaxis_showgrid=True
-    )
-    fig_hr_distribution.update_traces(marker_color='yellow', marker_line_color='red', marker_line_width=1.5, opacity=0.6)
-
     # Histogram for RR Intervals
     fig_rr_distribution = px.histogram(df, x='RR', nbins=20, title='Distribution of RR Intervals')
     fig_rr_distribution.update_layout(
@@ -202,6 +171,6 @@ try:
 
         display_figures(df_featured, decoded_predictions)
         display_stress_levels(df_featured, decoded_predictions)
-
+        
 except Exception as e:
     st.error(f"An error occurred: {e}")
