@@ -92,6 +92,22 @@ def display_figures(df, decoded_predictions):
     )
     fig_rr_intervals.update_traces(line=dict(color='orange', width=2))
 
+    # RMSSD Intervals Over Time
+    fig_rr_intervals = px.line(df, x='timestamp', y='RMSSD', title='RMSSD Over Time')
+    fig_rr_intervals.update_layout(
+        plot_bgcolor='black',
+        title_font_color='white',
+        title_font_size=20,
+        xaxis_title='Timestamp',
+        yaxis_title='RMSSD',
+        xaxis_color='white',
+        yaxis_color='white',
+        xaxis_showgrid=False,
+        yaxis_showgrid=True,
+        yaxis_gridcolor='#555555'
+    )
+    fig_rr_intervals.update_traces(line=dict(color='orange', width=2))
+    
     # Histogram for Heart Rate
     fig_hr_distribution = px.histogram(df, x='HR', nbins=20, title='Distribution of Heart Rate')
     fig_hr_distribution.update_layout(
