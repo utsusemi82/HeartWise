@@ -16,7 +16,7 @@ st.markdown("## Learn to Manage Stress 🌟")
 st.write("A guide on how you can enhance stress management based on the detected stress levels. :tulip::cherry_blossom::rose::sunflower::blossom:")
 st.divider()
 
-st.markdown("### Normal State")
+st.markdown("### Normal Stress Level")
 st.image("HRV/assets/photo-1603206006222-26ecff6f4f5c.jpeg")
 st.write("*Great news! Your HRV analysis shows that you're in the 'Normal' stress level zone. This is a fantastic sign of balance and well-being.*")
 st.markdown("#### Below are some of the enriched management tips:")
