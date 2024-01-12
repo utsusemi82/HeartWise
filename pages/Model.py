@@ -71,6 +71,8 @@ st.write("")
 
 
 st.divider()
+st.image("HRV/50bc44f6-e064-4d9a-8c17-1fa7e82a7218.png")
+st.image("HRV/ff907b74-7398-40ba-bf03-7aa85f6af2ee.png")
 st.markdown("""
 
     ### Model Performance Analysis
