@@ -65,7 +65,7 @@ data_gb= {
     "Support": [11782, 22158, 7093, 41033, 41033, 41033]
 }
 index_gb = ["0", "1", "2", "Accuracy", "Macro Avg", "Weighted Avg"]
-gb_df = pd.DataFrame(data_gb, index=index_gb)
+gb_report_df = pd.DataFrame(data_gb, index=index_gb)
 st.table(gb_report_df)
 st.write("")
 
