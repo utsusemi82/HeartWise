@@ -1,7 +1,8 @@
 # HeartWise 💓  
 *Employing HRV Analysis for Stress Level Detection*
 
-[![Streamlit Demo](https://img.shields.io/badge/Demo-Streamlit-blue?logo=streamlit)](https://drive.google.com/file/d/1AEwhyUFsMB4xSc1nRJ9oQpkWyUz3Zelh/view?usp=sharing)
+[![Streamlit Demo](https://img.shields.io/badge/Demo-Video-blue?logo=google-drive)](https://drive.google.com/file/d/1AEwhyUFsMB4xSc1nRJ9oQpkWyUz3Zelh/view?usp=sharing)
+[![Open in Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-ff4b4b?logo=streamlit&logoColor=white)](https://heartwise.streamlit.app/)
 
 ## 🧠 Project Overview
 
