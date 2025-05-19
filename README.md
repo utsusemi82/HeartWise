@@ -5,34 +5,28 @@
 
 ## 🧠 Project Overview
 
-HeartWise is a final year data science project focused on detecting stress levels using Heart Rate Variability (HRV) analysis. It leverages physiological signals to classify stress states using machine learning algorithms, presented in an interactive and accessible web application via Streamlit.
+HeartWise is my final year data science project focused on detecting stress levels using Heart Rate Variability (HRV) analysis. It leverages physiological signals to classify stress states using machine learning algorithms, presented in an interactive and accessible web application via Streamlit.
 
 This project supports mental health awareness by providing a low-cost, data-driven way to help users track and manage stress.
 
 ## 📊 Features
 
-- 🩺 HRV feature extraction from RR interval datasets
-- 📉 Exploratory Data Analysis and preprocessing
-- 🧠 Multiple classification models (e.g., SVM, Random Forest)
-- 🧪 Model evaluation using accuracy, precision, recall, F1-score
-- 🎯 Interactive Streamlit app for real-time predictions
-- 📎 Supporting documentation: proposal & final presentation decks
+- HRV feature extraction from RR interval datasets
+- Exploratory Data Analysis and preprocessing
+- Multiple classification models 
+- Model evaluation using accuracy, precision, recall, F1-score
+- Interactive Streamlit app for real-time predictions
+- Supporting documentation: proposal & final presentation decks
 
-## 🛠️ Tech Stack
+## 📽️ Demo
+You can watch a recorded demonstration of the Streamlit app [here](https://drive.google.com/file/d/1AEwhyUFsMB4xSc1nRJ9oQpkWyUz3Zelh/view).
 
-- Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-- Streamlit for web-based UI
-- Google Colab for prototyping
+> 💬 *"HeartWise was my first full-cycle data science project — from ideation, data cleaning, feature engineering, model deployment, to presentation. It's a meaningful milestone for me in applying AI for wellbeing."*
 
-## 📂 Repository Structure
+---
 
-```bash
-HeartWise/
-│
-├── data/                     # Raw & processed datasets
-├── notebooks/                # EDA & model training notebooks
-├── streamlit_app/            # Streamlit app code
-├── figures/                  # Plots and visualizations
-├── proposal_deck.pdf         # Project proposal (Jan 2024)
-├── final_deck.pdf            # Final viva presentation
-└── README.md
+## 📎 Additional Resources
+
+- 📄 [Proposal Deck](https://github.com/utsusemi82/HeartWise/blob/main/Employing%20HRV%20analysis%20for%20Stress%20Level%20Detection.pdf)
+- 🖥️ [Final Presentation Deck](https://github.com/utsusemi82/HeartWise/blob/main/FinalViva%20-%20Employing%20HRV%20analysis%20for%20Stress%20Level%20Detection_compressed.pdf)
+- 🎥 [Streamlit Demo (Google Drive)](https://drive.google.com/file/d/1AEwhyUFsMB4xSc1nRJ9oQpkWyUz3Zelh/view?usp=sharing)
